@@ -70,8 +70,8 @@ public class OHLC {
 
 	@Override
 	public String toString() {
-		return "OHLC [tradesSize=" + trades.size() + ", open=" + open + ", high=" + high + ", low=" + low + ", close=" + close
-				+ ", quantity=" + quantity + ", barNum=" + barNum + ", sym=" + sym + "]";
+		return "OHLC [ "+"sym=" + sym + "tradesSize=" + trades.size() + ", open=" + open + ", high=" + high + ", low=" + low + ", close=" + close
+				+ ", quantity=" + quantity + ", barNum=" + barNum + "]";
 	}
 	
 

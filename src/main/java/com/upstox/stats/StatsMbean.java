@@ -6,7 +6,7 @@ import org.springframework.jmx.export.annotation.ManagedAttribute;
 import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.stereotype.Component;
 
-@ManagedResource(objectName = "ohlc:category=MBeans,name=statsBean", description = "managedbean")
+@ManagedResource(objectName = "com.upstox.jmx:name=statsBean", description = "managedbean")
 @Component("statsBean")
 public class StatsMbean {
 
