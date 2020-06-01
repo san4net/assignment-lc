@@ -2,7 +2,8 @@
 How to run
 How to run
 1. Update the absolute file location of raw trades.json in application.properties file
-   location of properties file -> assignment-lc/src/main/resources/application.properties
+   
+  - location of properties file -> assignment-lc/src/main/resources/application.properties
   
 2. Make runnable jar using maven
    - mvn package -DskipTests
